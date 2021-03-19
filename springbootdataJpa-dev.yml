@@ -1,0 +1,10 @@
+identifier: config-props-product-service 
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/product"
+    username: root
+    password: ENC(8ZZUKRAhH6CQ+HWQ6+067iYvSxV47+Mp)
+server:
+  port: 8282
+  servlet:
+    context-path: /api
