@@ -4,6 +4,11 @@ spring:
     url: "jdbc:oracle:thin:@localhost:1521:xe"
     username: system
     password: ENC(1ZF5y+RzZc8m61cKHRt7vg==)
+
+jasypt:
+  encryptor:
+    password: AmirDB
+
 server:
   port: 8282
   servlet:
