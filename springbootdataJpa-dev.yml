@@ -1,9 +1,13 @@
 identifier: config-props-product-service 
 spring:
   datasource:
-    url: "jdbc:mysql://localhost:3306/product"
-    username: root
-    password: ENC(8ZZUKRAhH6CQ+HWQ6+067iYvSxV47+Mp)
+    url: "jdbc:oracle:thin:@localhost:1521:xe"
+    username: system
+    password: ENC(1ZF5y+RzZc8m61cKHRt7vg==)
+jasypt:
+  encryptor:
+    password: AmirDB
+
 server:
   port: 8282
   servlet:
