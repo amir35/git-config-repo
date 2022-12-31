@@ -1,9 +1,9 @@
 identifier: config-props-product-service 
 spring:
   datasource:
-    url: "jdbc:oracle:thin:@localhost:1521:xe"
+    url: "jdbc:oracle:thin:@localhost:1521:orcl"
     username: system
-    password: ENC(1ZF5y+RzZc8m61cKHRt7vg==)
+    password: ENC(Hk6H1qjFON6wXk/pGzWb21NtnMHaMbiu)
     driver-class-name: oracle.jdbc.driver.OracleDriver
 spring:
   jpa:
